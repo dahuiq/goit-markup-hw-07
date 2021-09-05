@@ -1,0 +1,42 @@
+/* особенности  section class="feature-group"*/
+  
+.feature{
+    padding-top: 94px;
+}
+.group__icon{
+   width: 70px;
+   height: 70px;
+}
+.group{
+   display: inline-flex; 
+   justify-content: center;
+   align-items: center; 
+   width: 270px;
+   height: 120px;
+   background: $group-bgr;
+    border-radius: 4px;
+    margin-bottom: 30px;
+} 
+.feature__columns{
+   display: flex;
+
+   .feature__item:not(:last-child){
+    margin-right: 30px;
+   }  
+}
+.feature__title{
+    font-weight: $font-weight-bold;
+    font-size: $font-size-text;
+    line-height: 1.172;
+    letter-spacing: $letter-spacing-text;
+    text-transform: uppercase;
+    color: $main-color-headers;
+    margin-bottom: 10px;
+}
+.feature__text{
+    width: 270px;
+    font-weight: normal;
+    font-size: $font-size-text;
+    line-height: 1.714; 
+    letter-spacing: $letter-spacing-text; 
+}
